@@ -6,6 +6,9 @@ const heading = React.createElement(
   { id: "heading" },
   "Hello React In Dept by Namaste React"
 );
+
+const jsxHeading = <h1>This is JSX Heading 🚀</h1>;
+
 const root = ReactDOM.createRoot(document.getElementById("root"));
 
-root.render(heading);
+root.render(jsxHeading);
